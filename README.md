@@ -2,7 +2,6 @@
 This is Ansible Vagrant profile for a Jenkins CI server
 
 # Getting Started
-##  Prerequisites
 
 To use the vagrant file, you will need to have done the following:
 
