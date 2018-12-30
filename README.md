@@ -9,11 +9,11 @@ To use the vagrant file, you will need to have done the following:
   2. Get the source code from repository: git clone `https://github.com/henshitou/vagrant-ansible-jenkins.git`
   3. cd to vagrant-ansible-jenkins,type in `vagrant up`, and Vagrant will create a new VM, install the base box, and configure it.
 
-### Setting up your hosts file
+#Setting up your hosts file
 
   1. setup your ansible roles file which store your roles
      /etc/ansible/ansible.cfg
-  2. You need to modify your host machine's hosts file (Linux: `/etc/hosts`), adding the line below:
+  2. You need to modify your host machine's hosts file (Linux: `/etc/hosts`), adding the line below(windows you need add this also in C:\Windows\System32\drivers\etc\hosts):
 
     192.168.1.200  jenkins
 
